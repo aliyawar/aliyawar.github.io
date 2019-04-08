@@ -1,9 +1,9 @@
 ---
 layout: page
-title: personal life
-permalink: /personal/
+title: about me
+permalink: /about/
 ---
-I was born and brought up in [Udaipur, Rajasthan, India](https://en.wikipedia.org/wiki/Udaipur) which is a "small" town of about 500,000 people. If you ever visit India, there is a high probability that you will go to Udaipur. As you should! Someday, when I have the time, I will add a small list of things you should definitely not miss while in my city.
+I was born and brought up in [Udaipur, Rajasthan, India](https://en.wikipedia.org/wiki/Udaipur). If you ever visit India, there is a high probability that you will go to Udaipur. As you should! Someday, when I have the time, I will add a small list of things you should definitely not miss while in my city.
 
 I finished high school at St. Paul's School in 2010 and moved to IIT Roorkee in Uttarakhand to study engineering. 
 
