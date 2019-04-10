@@ -4,11 +4,11 @@ title: research
 permalink: /research/
 ---
 
-## projects
+<!-- ## projects -->
 <!-- ![Pdflogo](/assets/pdflogo.png) -->
 
 
-# Transverse arch foot stiffness
+<!-- # Transverse arch foot stiffness
 Should talk about the work done so far, as well as the proposed modulation work.
 
 # Surface curvature articulation
@@ -18,9 +18,10 @@ Blah
 Blah
 
 # Soap films and drops 
-Blah
+Blah -->
+Download my [resume](../assets/yawar-resume.pdf){:target="blank"}.
 
-## preprints
+## publications
 1. **Yawar, A.**, Korpas, L., Lugo-Bolanos, M., Mandre, S. and Venkadesan, M., 2017. Contribution of the transverse arch to foot stiffness in humans. [arXiv preprint](https://arxiv.org/pdf/1706.04610.pdf){:target="blank"}
 2. Basu, S., **Yawar, A.**, Concha, A., and Bandi, M.M., [On angled bounce-off impact of a drop impinging on a flowing soap film](http://iopscience.iop.org/article/10.1088/1873-7005/aa9280){:target="blank"} *Fluid Dynamics Research* **49** 065509 2017 [![Download pdf](/assets/pdflogo.png)](../assets/basu2017.pdf){:target="blank"}
 

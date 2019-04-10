@@ -1,7 +1,8 @@
 ---
 layout: page
-title: pet projects
-permalink: /petprojects/
+title: side projects
+permalink: /sideprojects/
+published: false
 ---
 
 Going to add some stuff here with RPi, Arduino etc. 

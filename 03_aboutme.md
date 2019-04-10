@@ -2,6 +2,7 @@
 layout: page
 title: about me
 permalink: /about/
+published: false
 ---
 I was born and brought up in [Udaipur, Rajasthan, India](https://en.wikipedia.org/wiki/Udaipur). If you ever visit India, there is a high probability that you will go to Udaipur. As you should! Someday, when I have the time, I will add a small list of things you should definitely not miss while in my city.
 
