@@ -30,4 +30,4 @@ Download my [resume](../assets/yawar-resume.pdf){:target="blank"}.
 1. Sharma, N., **Yawar, A.**, Bhullar, B.A.S., Venkadesan, M. (2018) _To move or not: principal curvatures of articular surfaces._ In Integrative and Comparative Biology
 2. **Yawar, A.**, Korpas, L.M., Lugo-Bolanos, M., Mandre, S. and Venkadesan, M. (2017) _Bending-stretching coupling in the human foot: Role of the transverse arch._ In Integrative and Comparative Biology (Vol. 57, pp. E451-E451).
 3. **Yawar, A.**, Korpas, L.M., Lugo-Bolanos, M., Mandre, S. and Venkadesan, M.  (2016) _Stiffness of the Arched Human Foot._ In Society for Industrial and Applied Mathematics Annual Meeting, Boston MA, USA.
-4. **Yawar, A.**, Basu, S., Concha, A. and Bandi, M. (2015) _Experimental study of drop impacts on soap films._ In APS Meeting Abstracts, APS-DFD 2015 Boston, MA, USA. 
+4. **Yawar, A.**, Basu, S., Concha, A. and Bandi, M.M. (2015) _Experimental study of drop impacts on soap films._ In APS Meeting Abstracts, APS-DFD 2015 Boston, MA, USA. 
