@@ -1,0 +1,22 @@
+---
+layout: default
+title: assembly required
+---
+<p>This blog is a collection of AVR assembly code snippets.</p>
+<!-- <ul> -->
+  {% for post in site.posts %}
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <!-- <p class="post-meta">
+      <time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {{ post.date | date: date_format }}
+      </time>
+      {%- if post.author -%}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ post.author }}</span></span>
+      {%- endif -%}</p> -->
+  <p>{{ post.excerpt }}</p>
+
+  <a class="u-url" href="{{ post.url | relative_url }}" hidden></a>
+<!-- </article> -->
+  {% endfor %}
+<!-- </ul> -->
