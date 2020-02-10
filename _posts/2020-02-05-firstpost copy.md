@@ -6,9 +6,9 @@ title: AVR assembler pseudo PWM
 
 How to output PWM on pins that have no `OCnx` output.
 
-### Generating PWM output on pins without PWM functionality
+<!-- ### Generating PWM output on pins without PWM functionality -->
 
-I use interrupts to generate a _pseudo_ PWM output on pin D6.
+<!-- I use interrupts to generate a _pseudo_ PWM output on pin D6. -->
 <!-- ```R
 pwmsetup:
 ; Setup the 8-bit01imer/Counter 0 to operate in Fast PWM mode
