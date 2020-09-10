@@ -1,22 +1,31 @@
 ---
 layout: default
-title: assembly required
+title: blog
+permalink: /blog/
 ---
-<p>This blog will soon become a collection of AVR assembly code snippets.</p>
-<!-- <ul> -->
-  {% for post in site.posts %}
-  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    <!-- <p class="post-meta">
-      <time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ post.date | date: date_format }}
-      </time>
-      {%- if post.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ post.author }}</span></span>
-      {%- endif -%}</p> -->
-  <p>{{ post.excerpt }}</p>
 
-  <a class="u-url" href="{{ post.url | relative_url }}" hidden></a>
-<!-- </article> -->
-  {% endfor %}
-<!-- </ul> -->
+<header class="post-header">
+  <h1 class="post-title">assembly required</h1>
+  <!-- <h1 class="post-title">{{ page.title | escape }}</h1> -->
+</header>
+
+<p>This blog is a collection of AVR assembly code snippets, DIY electronics hacks, and other things I do when I don't do what I am supposed to.</p>
+{% assign sorted_cats = site.categories | sort %}
+<div id="archives">
+{% for category in sorted_cats %}
+  <div class="archive-group">
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <div id="#{{ category_name | slugize }}"></div>
+    <p></p>
+
+    <h2 class="category-head">{{ category_name }}</h2>
+    <a name="{{ category_name | slugize }}"></a>
+    {% for post in site.categories[category_name] %}
+    <article class="archive-item">
+      <h4>&emsp;<a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+      <!-- <p>{{ post.excerpt }}</p> -->
+    </article>
+    {% endfor %}
+  </div>
+{% endfor %}
+</div>
