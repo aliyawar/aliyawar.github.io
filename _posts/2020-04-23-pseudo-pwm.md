@@ -17,8 +17,6 @@ pwmsetup:
   out TCCR0A ,r16
   ldi r16 , (0<<WGM02)|(1<<CS02)|(0<<CS01)|(1<<CS00)
   out TCCR0B , r16
-  ldi r16 , 0x7F ; sample time location between 0-255
-  out OCR0A , r16
   ldi r16, 0x01 ; width of the ping
   out OCR0B, r16
 ret
