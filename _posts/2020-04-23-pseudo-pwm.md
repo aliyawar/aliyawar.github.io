@@ -6,7 +6,7 @@ category: avr programming
 This code pertains to the ATMega320p, but can be easily ported to other microcontrollers. The ability to generate PWM output on non-PWM pins can come in handy, specially if you are working with hardware that is hardwired to the microcontroller leaving you with limited freedom to pick pins. 
 
 The following code uses Timer/Counter 0 with the `OCR0B` match and `TCNT0` overflow interrupts enabled. 
-When the `OCR0B` interrupt is called, the output on pin D6 (a non PWM pin), goes LOW. When the counter overflows, the output on D6 goes HIGH. By changing the value of the `OCR0B` match, the width of the output can be changed. The error in the output timing depends on the length of your interrupt service routines. For very low error, you can remove saving/restoring the `SREG`, taking care that the commands inside the ISRs do not affect the `SREG`.
+When the `OCR0B` interrupt is called, the output on pin D6 (a non PWM pin), goes LOW. When the counter overflows, the output on D6 goes HIGH. By changing the value of the `OCR0B` match, the duty cycle of the output can be changed. The error in the output timing depends on the length of your interrupt service routines. For very low error, you can remove saving/restoring the `SREG`, taking care that the commands inside the ISRs do not affect the `SREG`.
 
 ```
 pwmsetup:
