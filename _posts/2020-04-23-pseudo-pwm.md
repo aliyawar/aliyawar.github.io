@@ -3,10 +3,59 @@ layout: post
 title: Generate pseudo PWM output on a non-PWM pin
 category: avr programming
 ---
-This code pertains to the ATMega320p, but can be easily ported to other microcontrollers. The ability to generate PWM output on non-PWM pins can come in handy, specially if you are working with deviced where outputs are already hardwired to the microcontroller leaving you with limited freedom to pick pins. 
+This code is written for the ATMega320p, but it can be easily ported to other microcontrollers. The ability to generate PWM output on non-PWM pins can come in handy, specially if you are working with devices where outputs are already hardwired to the microcontroller leaving you with limited freedom to pick pins. In my case, the hardwre is the [Pololu Balboa](https://www.pololu.com/product/3575) robot. In order to use it in Assembly with the [Pololu IR reflectance array](https://www.pololu.com/docs/0J13), I needed to ping a non-PWM pin. 
 
-The following code uses Timer/Counter 0 with the `OCR0B` match and `TCNT0` overflow interrupts enabled. 
-When the `OCR0B` interrupt is called, the output on pin D6 (a non PWM pin), goes LOW. When the counter overflows, the output on D6 goes HIGH. By changing the value of the `OCR0B` match, the duty cycle of the output can be changed. The error in the output timing depends on the length of your interrupt service routines. For very low error, you can remove saving/restoring the `SREG`, taking care that the commands inside the ISRs do not affect the `SREG`.
+The following code uses Timer/Counter 0 in Fast PWM mode with the `OCR0B` match and `TCNT0` overflow interrupts enabled. When the `OCR0B` interrupt is called, the output on pin D6 (a non PWM pin), goes LOW. When the counter overflows, the output on D6 goes HIGH. By changing the value of the `OCR0B` match, the duty cycle of the output can be changed. The error in the output timing depends on the length of your interrupt service routines. For very low error, you can remove saving/restoring the `SREG`, taking care that the commands inside the ISRs do not affect the `SREG`. The frequency of the output wave can be changed by changing clock prescalars for the Timer/Counter using `CS02:0` bits in the `TCCR0B` register.
+
+<!-- Going to add some stuff here with RPi, Arduino etc. 
+
+* Plant videos
+
+```shell
+sudo ffmpeg -framerate 16 -pattern_type glob -i '2017-04-28_*.jpg' 
+-vf drawtext="fontfile=/Library/Fonts/Arial.ttf: text='%{eif\:n*5\:d\:3} mins after 5 AM': 
+fontcolor=black:fontsize=100:shadowcolor=black" output.mp4
+```
+
+Probably need to upload video to youtube first.
+
+* Janky Cat
+
+* Wall spectrum analyzer
+
+* Clockform
+
+* Weather clock
+* Raspicam helper for puzzle building
+
+
+<dl>
+<h1>processing</h1>
+
+  <head>
+      <title>Processing.js Test</title>
+      <script src="../assets/processing.min.js"></script>
+  </head>
+  <body>
+      <h1>Processing.js Test</h1>
+      <p>This is my first Processing.js web-based sketch:</p>
+     <canvas data-processing-sources="../assets/clockForm.pde"></canvas>
+ </body>
+</dl> -->
+
+The following screenshots show the output waveforms at different frequencies and duty cycles. Y axis scale is 2V/div.
+
+![](/assets/test.png)
+*50% duty ratio, Hz*
+
+![](/assets/test2.png)
+*6% duty ratio, Hz*
+
+![](/assets/test4.png)
+*6% duty ratio, Hz*
+
+![](/assets/test3.png)
+*50% duty ratio, Hz*
 
 ```
 ; Stack registers
@@ -101,39 +150,3 @@ TCNT0_ovflow_int:
 reti
 
 ```
-
-<!-- Going to add some stuff here with RPi, Arduino etc. 
-
-* Plant videos
-
-```shell
-sudo ffmpeg -framerate 16 -pattern_type glob -i '2017-04-28_*.jpg' 
--vf drawtext="fontfile=/Library/Fonts/Arial.ttf: text='%{eif\:n*5\:d\:3} mins after 5 AM': 
-fontcolor=black:fontsize=100:shadowcolor=black" output.mp4
-```
-
-Probably need to upload video to youtube first.
-
-* Janky Cat
-
-* Wall spectrum analyzer
-
-* Clockform
-
-* Weather clock
-* Raspicam helper for puzzle building
-
-
-<dl>
-<h1>processing</h1>
-
-  <head>
-      <title>Processing.js Test</title>
-      <script src="../assets/processing.min.js"></script>
-  </head>
-  <body>
-      <h1>Processing.js Test</h1>
-      <p>This is my first Processing.js web-based sketch:</p>
-     <canvas data-processing-sources="../assets/clockForm.pde"></canvas>
- </body>
-</dl> -->
