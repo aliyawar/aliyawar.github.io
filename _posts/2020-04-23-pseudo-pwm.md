@@ -148,5 +148,6 @@ TCNT0_ovflow_int:
   out PORTD, r18         
   out SREG , r23 ; restore SREG
 reti
-
 ```
+
+**Acknowledgement**: I learned the basics of microcontroller programming in assembly as a Teaching Assistant for Yale's Mechatronics Course ([MENG 390](https://courses.yale.edu/?details&srcdb=202101&crn=23090)). This code is based on code skeletons originally developed by the course instructor.
