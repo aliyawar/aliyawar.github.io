@@ -45,17 +45,17 @@ Probably need to upload video to youtube first.
 
 The following screenshots show the output waveforms at different frequencies and duty cycles. Y axis scale is 2V/div.
 
-![](/assets/test.png)
-*50% duty ratio, Hz*
+![](/assets/50fast.png)
+*50% duty ratio, ~ 8 kHz*
 
-![](/assets/test2.png)
-*6% duty ratio, Hz*
+![](/assets/6fast.png)
+*6% duty ratio, ~ 8 kHz*
 
-![](/assets/test4.png)
-*6% duty ratio, Hz*
+![](/assets/6slow.png)
+*6% duty ratio, ~ 66 Hz*
 
-![](/assets/test3.png)
-*50% duty ratio, Hz*
+![](/assets/50slow.png)
+*50% duty ratio, ~ 66 Hz*
 
 ```
 ; Stack registers
