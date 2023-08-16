@@ -5,6 +5,7 @@ permalink: /pubs/
 ---
 
 ## journal articles
++ **Effects of shoe heel height on ankle dynamics in running.** Yawar A. and Lieberman D.E. (2023). [biorXiv preprint](https://www.biorxiv.org/content/10.1101/2023.08.08.552471v1){:target="blank"}
 + **Biomechanical tradeoffs in foot function from variations in shoe design.** Yawar A. and Lieberman D.E. (2023).  *Exercise and sport sciences reviews* 10-1249.
 + **Stiffness of the human foot and evolution of the transverse arch.** Venkadesan M., Yawar A., Eng C.M., Dias M.A., Singh D.K., Tommasini S., Haims A., Bandi M.M., Mandre S. (2020).  *Nature*, 579 (7797), 97–100. [Full text](https://rdcu.be/b2dCo){:target="blank"}
 + **Contribution of the transverse arch to foot stiffness in humans.** Yawar A., Korpas L., Lugo-Bolanos M., Mandre S. and Venkadesan M., 2017. [arXiv preprint](https://arxiv.org/pdf/1706.04610.pdf){:target="blank"}
