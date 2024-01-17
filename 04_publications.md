@@ -5,8 +5,9 @@ permalink: /pubs/
 ---
 
 ## journal articles
++ **Using inertial measurement units to estimate spine joint kinematics and kinetics during walking and running.** Sibson B.E., Banks J.J., Yawar A., Yegian A.K., Anderson D.E., Lieberman D.E. (2024). Scientific Reports 14(1):234. [Open access](https://www.nature.com/articles/s41598-023-50652-w){:target="blank"}
 + **Effects of shoe heel height on ankle dynamics in running.** Yawar A. and Lieberman D.E. (2023). [biorXiv preprint](https://www.biorxiv.org/content/10.1101/2023.08.08.552471v1){:target="blank"}
-+ **Biomechanical tradeoffs in foot function from variations in shoe design.** Yawar A. and Lieberman D.E. (2023).  *Exercise and sport sciences reviews* 10-1249. [link](https://journals.lww.com/acsm-essr/fulltext/2023/10000/biomechanical_tradeoffs_in_foot_function_from.2.aspx){:target="blank"}
++ **Biomechanical tradeoffs in foot function from variations in shoe design.** Yawar A. and Lieberman D.E. (2023).  *Exercise and sport sciences reviews* 10-1249. [journal link](https://journals.lww.com/acsm-essr/fulltext/2023/10000/biomechanical_tradeoffs_in_foot_function_from.2.aspx){:target="blank"}
 + **Stiffness of the human foot and evolution of the transverse arch.** Venkadesan M., Yawar A., Eng C.M., Dias M.A., Singh D.K., Tommasini S., Haims A., Bandi M.M., Mandre S. (2020).  *Nature*, 579 (7797), 97–100. [Full text](https://rdcu.be/b2dCo){:target="blank"}
 + **Contribution of the transverse arch to foot stiffness in humans.** Yawar A., Korpas L., Lugo-Bolanos M., Mandre S. and Venkadesan M., 2017. [arXiv preprint](https://arxiv.org/pdf/1706.04610.pdf){:target="blank"}
 + **On angled bounce-off impact of a drop impinging on a flowing soap film.** Basu S., Yawar A., Concha A., and Bandi M.M. *Fluid Dynamics Research* **49** 065509 2017 (Winner of the [Fluid Dynamics Research Prize, 2018](https://iopscience.iop.org/journal/1873-7005/page/Awards){:target="blank"}) [Full text](../assets/basu2017.pdf){:target="blank"}
