@@ -30,13 +30,6 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap	
   - jekyll-seo-tag
-  - jekyll-scholar
-
-scholar:
-  source: _bibliography # Folder containing .bib files
-  bibliography: yawar_papers.bib # Your .bib file
-  style: apa # Or any other desired style (e.g., ieee, mla)
-  # details_layout: publication_details.html # Optional: layout for individual paper pages
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
