@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: ali yawar
-email: ali.yawar@yale.edu
-email_space: ali dot yawar at yale dot edu 
+email: ali.yawar@aya.yale.edu
+email_space: ali dot yawar at aya dot yale dot edu 
 description: >- # this means to ignore newlines until "baseurl:"
   Personal webpage
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -30,6 +30,14 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap	
   - jekyll-seo-tag
+  - jekyll-scholar
+
+scholar:
+  source: _bibliography # Folder containing .bib files
+  bibliography: yawar_papers.bib # Your .bib file
+  style: apa # Or any other desired style (e.g., ieee, mla)
+  # details_layout: publication_details.html # Optional: layout for individual paper pages
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
