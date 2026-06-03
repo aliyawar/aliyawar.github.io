@@ -16,9 +16,6 @@ permalink: /pubs/
 8. **Stiffness of the human foot and evolution of the transverse arch.** Venkadesan M., Yawar A., Eng C.M., Dias M.A., Singh D.K., Tommasini S., Haims A., Bandi M.M., Mandre S. (2020).  *Nature*, 579 (7797), 97–100. [Full text](https://rdcu.be/b2dCo){:target="blank"}
 9. **On angled bounce-off impact of a drop impinging on a flowing soap film.** Basu S., Yawar A., Concha A., and Bandi M.M. *Fluid Dynamics Research* **49** 065509 2017 (Winner of the [Fluid Dynamics Research Prize, 2018](https://iopscience.iop.org/journal/1873-7005/page/Awards){:target="blank"}) [Full text](../assets/basu2017.pdf){:target="blank"}
 
-<!-- ## thesis
-Yawar, A., 2022. Structural Origins of the Stiffness and Work Contributions of the Human Foot (Doctoral dissertation, Yale University) [open access](https://www.proquest.com/dissertations-theses/structural-origins-stiffness-work-contributions/docview/2705675002/se-2){:target="blank} -->
-
 ## conference presentations
 1. **Energetics of the foot and power transmission by the windlass.** Yawar, A., Eng, C.M., Tommasini, S.M., Venkadesan, M. (2022) In Proc. of the 9th World Congress of Biomechanics, Taipei, Taiwan (virtual)
 2. **Contribution of the transverse arch to in vivo foot stiffness in humans.** Yawar, A., Korpas, L., Mandre, S., Venkadesan, M. (2021) In Proc. of the 28th Congress of the Int. Soc. of Biomechanics, Stockholm, Sweden (virtual)
