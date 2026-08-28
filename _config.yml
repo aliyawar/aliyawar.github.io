@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: ali yawar
+title: Ali Yawar
 email: ali.yawar@aya.yale.edu
 email_space: ali dot yawar at aya dot yale dot edu 
 description: >- # this means to ignore newlines until "baseurl:"
@@ -22,6 +22,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://aliyawar.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  aliyawar
 twitter_username: aliyaw_ar
+# linkedin_username: ali-yawar-5a9704183
 author: Ali Yawar
 # Build settings
 markdown: kramdown
@@ -30,6 +31,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap	
   - jekyll-seo-tag
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

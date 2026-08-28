@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Record phototropism in plants
-published: true
+published: false
 category: raspberry pi
 ---
 I used [raspicam](https://www.raspberrypi.org/documentation/usage/camera/raspicam/) commands in [cron](https://www.raspberrypi.org/documentation/linux/usage/cron.md) to click still images at specified time instants.

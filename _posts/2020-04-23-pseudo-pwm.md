@@ -2,6 +2,7 @@
 layout: post
 title: Generate pseudo PWM output on a non-PWM pin
 category: avr programming
+published: false
 ---
 This code is written for the ATMega32u4, but it can be easily ported to other microcontrollers. The ability to generate PWM output on non-PWM pins can come in handy, specially if you are working with devices where outputs are already hardwired to the microcontroller leaving you with limited freedom to pick pins. In my case, the hardwre is the [Pololu Balboa](https://www.pololu.com/product/3575) robot. In order to use it in Assembly with the [Pololu IR reflectance array](https://www.pololu.com/docs/0J13), I needed to ping a non-PWM pin. 
 
