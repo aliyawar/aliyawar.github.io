@@ -14,23 +14,35 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Ali Yawar
+# author: 
+  # name: Ali Yawar
 email: ali.yawar@aya.yale.edu
 email_space: ali dot yawar at aya dot yale dot edu 
-description: >- # this means to ignore newlines until "baseurl:"
-  Personal webpage
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://aliyawar.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  aliyawar
-twitter_username: aliyaw_ar
+# github_username:  
+# twitter_username: aliyaw_ar
+
+minima:
+  description: Personal webpage
+
+  social_links:
+    - title: GitHub
+      icon: github
+      url: "https://github.com/aliyawar"
+    - platform: twitter
+      user_name: aliyaw_ar
 # linkedin_username: ali-yawar-5a9704183
-author: Ali Yawar
+
 # Build settings
 markdown: kramdown
-theme: minima
+remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap	
   - jekyll-seo-tag
+  - jekyll-remote-theme
 
 
 # Exclude from processing.

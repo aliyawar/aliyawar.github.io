@@ -283,6 +283,7 @@ DEPENDENCIES
   commonmarker (>= 0.23.4)
   csv
   github-pages
+  jekyll-remote-theme
   nokogiri (>= 1.18.10)
   webrick (~> 1.8)
 

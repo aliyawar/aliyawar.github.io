@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 ---
 
 <img src="/assets/AY-headshot.jpg" alt="Ali Yawar" style="width:300px;text-align:center">
